@@ -1,0 +1,12 @@
+name 'rcc-2017-mangodb-checker'
+description 'Installs and configures RCC 2017 mangodb service checker'
+version '1.0.0'
+
+recipe 'rcc-2017-mangodb-checker', 'Installs and configures RCC 2017 mangodb service checker'
+depends 'git', '~> 6.0.0'
+depends 'git2', '~> 1.0.0'
+depends 'poise-python', '~> 1.6.0'
+depends 'supervisor', '~> 0.4.12'
+depends 'chef_nginx', '~> 6.0.1'
+depends 'ssh-private-keys', '~> 2.0.0'
+depends 'ssh_known_hosts', '~> 5.1.0'
